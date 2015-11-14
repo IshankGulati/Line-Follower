@@ -2,7 +2,7 @@
  * Line_follower.c
  *
  * Created: 09-07-2014 15:24:30
- *  Author: Sam
+ *  Author: Ishank
  */ 
 
 
@@ -23,7 +23,6 @@ int main(void)
     {
 		PORTB=PINA;
 		sensors = PINA;
-		//PORTD = 0b00001010;
 		//straight
 		if((sensors == 0b11100111)||(sensors == 0b11101111)||(sensors == 0b11110111))
 		{
